@@ -4,4 +4,4 @@ def teste_numero():
 
 
 def teste_funcao_de_soma():
-    assert 2 == 3
+    assert 2 == 2
