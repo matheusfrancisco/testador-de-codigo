@@ -28,8 +28,8 @@ def testa_v1_coletador(pasta):
 def executa_teste(pasta):
     resultados = []
 
-    testes, _ = testa_v1_coletador(pasta)
-    for modulo, testes in testes:
+    testes_encontrados, _ = testa_v1_coletador(pasta)
+    for modulo, testes in testes_encontrados:
         for teste in testes:
             resultado_de_um_teste = {"modulo": modulo, "nome": teste.__name__}
             try:
