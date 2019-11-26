@@ -7,7 +7,6 @@ from pathlib import Path
 from pprint import pprint
 
 arquivos = Path('./testes').glob('teste_*.py')
-print(list(arquivos))
 resultados = defaultdict(list)
 
 for arquivo in arquivos:
